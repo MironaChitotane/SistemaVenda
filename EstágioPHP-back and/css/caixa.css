@@ -1,0 +1,68 @@
+#caixa-fechado{
+    display: none;
+}
+#caixa-fechado button{
+    width: 150px;
+    
+}
+#caixa-aberto{
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+#saldo-inicial,#entrada-caixa, #saida-caixa,#saldo-operaconal,#saldo-final{
+    width: 320px;
+    height: 170px;
+    background-color:#fff;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    margin-left:5px ;
+    margin-top:5px;
+}
+#saldo-inicial span,#entrada-caixa span,#saida-caixa span,#saldo-operaconal span,#saldo-final span{
+    font-size: 60px;
+    display: block;
+    color: #6B99B4;
+}
+#saldo-inicial h3, #entrada-caixa h3,#saida-caixa h3,#saldo-operaconal h3,#saldo-final h3{
+    font-size: 30px;
+    line-height: 50px;
+    color: #999999;
+}
+
+#saida-caixa span{
+    color:#eeb161;;
+}
+
+#btn-saldo-inicial{
+    background-color:#4444;
+    position: relative;
+    left: 60px;
+    width: 200px;
+
+}
+#forme-saldo-inicial{
+    display: none;
+    background: #eeb161;
+    width: 320px;
+    height: 200px;
+    color:#ffff;
+    
+    
+}
+#forme-saldo-inicial form{
+    padding: 0;
+    left: 0;
+    width: 280px;
+    height: 100px;
+    text-align: left;
+}
+#forme-saldo-inicial form input{
+    width: 200px;
+    margin-bottom: 20px;
+}
+#forme-saldo-inicial form h3{
+    line-height: 65px;
+
+}

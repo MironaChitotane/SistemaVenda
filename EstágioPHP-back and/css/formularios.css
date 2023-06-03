@@ -1,0 +1,133 @@
+form{
+    width: 700px;
+    height: 570px;
+    display:block;
+    position: absolute;
+    left: 50px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.section-forms{
+    overflow: auto;
+    height: 100vh;
+}
+form *{
+    display: block;
+}
+form div{
+    width: 90%;
+    position: relative;
+    left: 20px;
+}
+form span{
+    line-height: 40px;
+    width: auto;
+}
+form input{
+    width: 80%;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+form .valores{
+    width: 200px;
+    display: inline-block;
+}
+
+form #data-nascimento-cliente, form #numeroCasa{
+    width: 160px;
+}
+form fieldset{
+    border: 1px solid #3333;
+    border-radius: 2px;
+    width: 200px;
+}
+form fieldset span,form fieldset input{
+    display: inline-block;
+    width: 20px;
+    margin: 5px;
+}
+form fieldset #cep{
+    width: 200px;
+}
+form fieldset #email,form fieldset #celular{
+    width: 300px;
+}
+select{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 190px;
+    color: #333;
+}
+.btn-forms{
+    height: 50px; 
+    width: 350px;
+    position:absolute; 
+    left: 390px;
+}
+.btn-forms button a,.btn-forms button a:hover{
+   color: #333;
+   text-decoration: none;;
+}
+/*vendas-----------------------------*/
+#list-itens-venda{
+    border:1px solid grey;
+    width: 500px;
+    height: 450px;
+
+}
+.form-venda form{
+    width: 400px;
+    height: auto;
+    text-align: left;
+    display: block;
+    position: absolute;
+    left: 480px;
+    top: 20px;
+}
+.form-venda form input{
+    display: inline-block;
+    width: 150px;
+}
+.form-venda form .btn-vendas{
+    width: 400px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 240px;
+}
+.form-venda form .btn-vendas button{
+    width: 150px;
+}
+#feeback{
+    display: block;
+    position: absolute;
+    left: 525px;
+    top: 300px;
+}
+#feeback span{
+    color: #EEB161;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+#feeback label{
+    font-size: 25px;
+    color: #ffff
+}
+#cod-produto {
+    font-weight:700;
+    font-size: 24px;
+    width: 200px;
+    padding-left: 15px;
+}
+#cod-produto::-webkit-input-placeholder {
+   color: #6b99b4;
+}
